@@ -7,7 +7,7 @@ function App() {
   return (
     <>
   <Header></Header>
-
+<FirstSection></FirstSection>
   <Footer></Footer>
     </>
   )

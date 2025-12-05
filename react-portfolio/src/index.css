@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--ff--primary);
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+main{
+  width: 90%;
+  margin-inline: auto;
+}

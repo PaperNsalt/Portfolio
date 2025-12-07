@@ -6,7 +6,7 @@ export default function SecondSection(){
   return(
     <>
     
-    <section className='border-e-40 border-b-40'>
+    <section className='border-e-40 border-b-40 p-20'>
       <div className='anim grid grid-cols-2 '>
         <div className='flex flex-col justify-center items-start m'>
         <h1 className='text-left text-5x1 md:text-[10rem] lg:text-[14rem] xl:text-[14rem] font-medium tracking-tighter'>WHO I AM?</h1>

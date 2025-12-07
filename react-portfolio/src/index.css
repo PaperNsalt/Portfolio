@@ -13,6 +13,8 @@
 html {
   font-size: 62.5%;
   font-family: var(--ff--primary);
+
+  scroll-behavior: smooth;
 }
 
 img, svg {
@@ -33,10 +35,10 @@ main{
   to{
     opacity: 1;
     scale: 1;
+    
+  
   }
-}
-
-.anim{
+}.anim{
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;

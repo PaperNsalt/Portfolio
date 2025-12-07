@@ -3,7 +3,7 @@ function FirstSection(){
 
   return(
     <>
-    <section>
+    <section className='border-t-40 border-s-40 border-b-40'>
       <div className="anim grid grid-cols-2 md:grid-rows-[80px] lg:grid-rows-[100px] xl:grid-rows-[190px] py-4 px-4 gap-2">
 
       <div className='anim flex justify-start items-center '>

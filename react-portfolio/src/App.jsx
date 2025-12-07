@@ -2,6 +2,7 @@ import Header from './Header'
 import Footer from './Footer'
 import './App.css'
 import FirstSection from './FirstSection'
+import SecondSection from './SecondSection'
 
 function App() {
 
@@ -10,7 +11,10 @@ function App() {
   <Header></Header>
 
   <FirstSection></FirstSection>
+
+  <SecondSection></SecondSection>
   
+  <FirstSection></FirstSection>
   <Footer></Footer>
     </>
   )

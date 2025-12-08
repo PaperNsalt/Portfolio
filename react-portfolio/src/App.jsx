@@ -1,18 +1,15 @@
 import Header from './Header'
 import Footer from './Footer'
 import './App.css'
-import FirstSection from './FirstSection'
-import SecondSection from './SecondSection'
+import MainSection from './pages/MainSection'
 
 function App() {
 
   return (
     <>
-  <Header></Header>
-
-  <FirstSection></FirstSection>
-
-  <SecondSection></SecondSection>
+  {/* <Header></Header> */}
+  
+  <MainSection></MainSection>
   
   <Footer></Footer>
     </>

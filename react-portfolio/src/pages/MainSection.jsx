@@ -18,7 +18,7 @@ function MainSection(){
   const headlineTextClasses2 = 'text-right max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[12rem] xl:text-[24rem] leading-76 font-medium tracking-tighter';
 
 
-  const techCards = 'rounded-4xl p-10 flex flex-col justify-center items-center'
+  const techCards = 'anim rounded-4xl p-10 flex flex-col justify-center items-center'
   return(
     <>
 
@@ -137,11 +137,11 @@ function MainSection(){
     <section className='border-e-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-e-20 xl:p-20 lg:p-16 md:p-10 max-[426px]:px-8 max-[426px]:py-6'>
 
       <div className='flex justify-center items-center'>
-        <h1 className='text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[10rem] xl:text-[14rem] xl:leading-60 font-medium tracking-tighter'>TECH STACKS</h1>
+        <h1 className='anim text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[10rem] xl:text-[14rem] xl:leading-60 font-medium tracking-tighter'>TECH STACKS</h1>
       </div>
 
       {/* techCards */}
-      <div className='grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 mt-10'>
+      <div className='anim grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 mt-10'>
 
         <div className={techCards}>
           <svg stroke="#f2542d" fill="#f2542d" stroke-width="0" viewBox="0 0 1024 1024" height="10em" width="10em" xmlns="http://www.w3.org/2000/svg"><path d="M145 96l66 746.6L511.8 928l299.6-85.4L878.7 96H145zm610.9 700.6l-244.1 69.6-245.2-69.6-56.7-641.2h603.8l-57.8 641.2zM281 249l1.7 24.3 22.7 253.5h206.5v-.1h112.9l-11.4 118.5L511 672.9v.2h-.8l-102.4-27.7-6.5-73.2h-91l11.3 144.7 188.6 52h1.7v-.4l187.7-51.7 1.7-16.3 21.2-242.2 3.2-24.3H511v.2H389.9l-8.2-94.2h352.1l1.7-19.5 4.8-47.2L742 249H511z"></path></svg>

@@ -10,7 +10,6 @@ function App() {
   {/* <Header></Header> */}
   
   <MainSection></MainSection>
-
   <MainSection></MainSection>
   
   <Footer></Footer>

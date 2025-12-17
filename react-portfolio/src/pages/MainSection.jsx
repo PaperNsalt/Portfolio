@@ -12,9 +12,9 @@ import "../components/bgChangeColor.js";
 
 function MainSection() {
   const portfolioSectionBorders =
-    "border-t-40 border-s-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-t-20 max-[426px]:border-s-20 xl:p-20 lg:p-16 md:p-10";
+    "border-t-40 border-s-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-t-20 max-[426px]:border-s-20 xl:p-30 lg:p-16 md:p-10";
   const portfolioSectionBorders1 =
-    " border-s-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-s-20 xl:p-20 lg:p-16 md:p-10";
+    " border-s-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-s-20 xl:p-30 lg:p-16 md:p-10";
   const headlineTextClasses =
     "text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] md:leading- lg:text-[12rem] xl:text-[24rem] xl:leading-76 font-medium tracking-tighter";
   const subHeadlineTextClasses =
@@ -62,7 +62,7 @@ function MainSection() {
       </section>
 
       {/* second section */}
-      <section className="border-e-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-e-20 xl:p-20 lg:p-16 md:p-10 max-[426px]:px-8 max-[426px]:py-6">
+      <section className="border-e-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-e-20 xl:p-50 lg:p-30 md:p-20 max-[426px]:px-8 max-[426px]:py-6">
         <div className="anim grid grid-cols-[repeat(auto-fit,minmax(200px,2fr))] ">
           <div className="flex flex-col justify-center items-start max-[426px]:order-2">
             <h1 className="md:self-center lg:text-left lg:self-center xl:self-start text-5x1 max-[426px]:text-[4rem] max-[426px]:leading-20 max-[426px]:self-center max-[426px]:mb-0 md:text-[7rem] lg:text-[14rem] xl:text-[13rem] font-medium tracking-tighter md:leading-28 lg:leading-50 xl:leading-56 mb-4">
@@ -83,14 +83,23 @@ function MainSection() {
 
             <div className="mt-10 flex gap-20">
               <div>
-                <button className="border rounded-2xl bg-white p-2 xl:text-[2rem]">Github</button>
+                <button
+                  className="border bg-white text-[2rem] hover:bg-[#f2552e]/80 hover:text-white hover:rounded-2xl hover:border-black px-4 py-2 rounded-2xl
+               transition-colors duration-200"
+                >
+                  Github
+                </button>
               </div>
 
               <div>
-                <button className="border rounded-2xl bg-white p-2 xl:text-[2rem]">Linkedin</button>
+                <button
+                  className="border bg-white text-[2rem] hover:bg-[#f2552e]/80 hover:text-white hover:rounded-2xl hover:border-black px-4 py-2 rounded-2xl
+               transition-colors duration-200"
+                >
+                  Linkedin
+                </button>
               </div>
             </div>
-
           </div>
 
           <div className="flex justify-center items-center max-[426px]:order-1">
@@ -112,7 +121,7 @@ function MainSection() {
             </h1>
           </div>
         </div>
-        <div className="mt-20 md:mt-0 lg:mt-0 anim grid md:grid-cols-[repeat(auto-fit,minmax(100px,1fr))] lg:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] xl:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-8">
+        <div className="mt-20 md:mt-0 lg:mt-0 xl:mt-20 anim grid md:grid-cols-[repeat(auto-fit,minmax(100px,1fr))] lg:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] xl:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-8">
           <div className="flex flex-col justify-center items-center p-8 lg:p-6">
             <img
               className="mb-8 size-50 md:size-30 lg:size-36"
@@ -227,7 +236,7 @@ function MainSection() {
       </section>
 
       {/* fourth section */}
-      <section className="border-e-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-e-20 xl:p-20 lg:p-16 md:p-10 max-[426px]:px-8 max-[426px]:py-6">
+      <section className="border-e-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-e-20 xl:p-30 lg:p-16 md:p-10 max-[426px]:px-8 max-[426px]:py-6">
         <div className="flex justify-center items-center">
           <h1 className="anim text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[10rem] xl:text-[14rem] xl:leading-60 font-medium tracking-tighter">
             TECH STACKS
@@ -235,7 +244,7 @@ function MainSection() {
         </div>
 
         {/* techCards */}
-        <div className="anim grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 mt-10">
+        <div className="anim grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 xl:mt-20">
           <div className={techCards}>
             <svg
               stroke="#f2542d"
@@ -383,6 +392,24 @@ function MainSection() {
               ReactJs
             </h1>
           </div>
+        </div>
+      </section>
+
+      <section className={portfolioSectionBorders1}>
+
+        <div className="flex justify-center items-center">
+          <h1 className="anim text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[10rem] xl:text-[12rem] xl:leading-60 font-medium tracking-tighter">STORY BEHIND THE CODE</h1>
+        </div>
+
+        <div className="anim grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 mt-20">
+          <div className="w-auto border-white p-4">
+            <h1>Year</h1>
+          </div>
+
+          <div className="w-auto border-white p-4">
+            <h1>Year</h1>
+          </div>
+
         </div>
       </section>
     </>

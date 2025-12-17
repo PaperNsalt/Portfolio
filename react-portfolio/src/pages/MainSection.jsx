@@ -396,18 +396,37 @@ function MainSection() {
       </section>
 
       <section className={portfolioSectionBorders1}>
-
         <div className="flex justify-center items-center">
-          <h1 className="anim text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[10rem] xl:text-[12rem] xl:leading-60 font-medium tracking-tighter">STORY BEHIND THE CODE</h1>
+          <h1 className="anim text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[10rem] xl:text-[12rem] xl:leading-60 font-medium tracking-tighter">
+            STORY BEHIND THE CODE
+          </h1>
         </div>
 
         <div className="anim grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 mt-20">
-          <div className="w-auto border-white p-4">
-            <h1>Year</h1>
-          </div>
+          <div className="anim w-[300px] h-[350px] mx-auto [perspective:1000px] cursor-pointer group">
+            <div
+              className="relative w-full h-full
+              transition-transform duration-[600ms]
+              [transform-style:preserve-3d]
+              group-hover:[transform:rotateY(180deg)]"
+            >
+              <div
+                className="absolute inset-0 flex items-center justify-center
+                bg-white border p-10 rounded-2xl
+                [backface-visibility:hidden]"
+              >
+                <h1 className="text-[2rem]">2021-2024</h1>
+              </div>
 
-          <div className="w-auto border-white p-4">
-            <h1>Year</h1>
+              <div
+                className="absolute inset-0 flex items-center justify-center
+                bg-[#f2552e] p-10 rounded-2xl
+                [transform:rotateY(180deg)]
+                [backface-visibility:hidden]"
+              >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum eos mollitia distinctio totam ad, corporis vel consectetur corrupti rem?</p>
+              </div>
+            </div>
           </div>
 
         </div>

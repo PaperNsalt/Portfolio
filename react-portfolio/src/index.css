@@ -14,12 +14,14 @@
         --color-primary: hsl(223, 44%, 94%);
         --color-secondary: hsl(226, 50%, 10%);
         --color-tertiary: hsl(286, 80%, 20%);
+        --color-fourth: hsl(0, 0%, 36%);
         --color-accent: hsl(166, 80%, 20%);
     }
 
 .dark {
         --color-primary: hsl(0, 0%, 0%);
         --color-secondary: hsl(226, 50%, 90%);
+        --color-fourth: hsl(0, 0%, 36%);
         --color-tertiary: hsl(286, 80%, 80%);
         --color-accent: hsl(166, 80%, 80%);
     }
@@ -30,11 +32,19 @@ h1{
 }
 
 p{
-  color: var(--color-secondary)
+  color: var(--color-secondary);
+
+  .sub{
+    color: hsl(60, 1%, 47%);
+  }
 }
 
 h1, p{
   transition: color 0.5s ease-in-out;
+}
+
+h3{
+  font-size: 1.2rem;
 }
 
 /* section{

@@ -65,6 +65,7 @@ function MainSection() {
 
       {/* second section */}
       <section className="border-e-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-e-20 xl:p-50 lg:p-30 md:p-20 max-[426px]:px-8 max-[426px]:py-40">
+
         <div className="anim grid grid-cols-[repeat(auto-fit,minmax(200px,2fr))] ">
           <div className="flex flex-col justify-center items-start max-[426px]:order-2">
             <h1 className="md:self-center lg:text-left lg:self-center xl:self-start text-5x1 max-[426px]:text-[4rem] max-[426px]:leading-20 max-[426px]:self-center max-[426px]:mb-0 md:text-[7rem] lg:text-[14rem] xl:text-[13rem] font-medium tracking-tighter md:leading-28 lg:leading-50 xl:leading-56 mb-4">

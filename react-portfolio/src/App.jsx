@@ -11,7 +11,9 @@ function App() {
   <Header></Header>
   
   <MainSection></MainSection>
+  
   <ProjectSection></ProjectSection>
+
   <MainSection></MainSection>
   
   <Footer></Footer>

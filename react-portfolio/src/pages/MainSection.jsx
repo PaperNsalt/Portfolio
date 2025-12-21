@@ -89,7 +89,13 @@ function MainSection() {
               always eager to dive in and learn more.{" "}
             </p>
 
-            <div className="mt-10 flex gap-10 md:gap-4 max-[426px]:mt-8">
+            <div className="mt-10 
+            flex 
+            gap-2 
+            max-[426px]:gap-1
+            md:gap-4 
+            max-[426px]:mt-8"
+            >
               <div>
                 <ButtonComponent
                 href = "https://github.com/PaperNsalt"
@@ -111,7 +117,7 @@ function MainSection() {
               <div>
                 <ButtonComponent 
                 href={cvFile}
-                label="Download CV"
+                label="DownloadCV"
                 icon={DownloadIcon}
                 />
               </div>

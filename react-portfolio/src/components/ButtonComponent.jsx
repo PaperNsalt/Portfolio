@@ -20,6 +20,8 @@ function ButtonLink({
           px-4 py-2 rounded-2xl
           transition-colors duration-200
           hover:bg-[#f2552e]/80 hover:text-white hover:border-black
+
+          max-[426px]:text-[1.2rem]
         "
       >
         {icon && <span className="">{icon}</span>}

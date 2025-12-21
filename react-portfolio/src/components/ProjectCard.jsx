@@ -24,7 +24,7 @@ function ProjectCard({
   return (
     <div className="grid xl:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] lg:grid-cols-1 mt-10">
       {/* TEXT SIDE */}
-      <div className="flex flex-col justify-start items-start xl:p-10 lg:p-0 max-[426px]:order-2 md:order-2 lg:order-2 xl:order-1">
+      <div className="flex flex-col justify-center items-start xl:p-10 lg:p-0 max-[426px]:order-2 md:order-2 lg:order-2 xl:order-1">
         <h1 className="anim md:text-[4rem] lg:text-[5rem] font-medium tracking-tighter xl:text-left lg:leading-20 xl:leading-20 max-[426px]:leading-20 max-[426px]:text-[2.2rem]">
           {title}
         </h1>
@@ -70,7 +70,7 @@ function ProjectCard({
           <img
             src={image}
             alt={imageAlt || title}
-            className=" anim w-full h-full object-cover rounded-2xl"
+            className=" anim w-full h-full object-cover rounded-2xl border-2"
           />
         ) : (
           <span className="text-xl opacity-50">No Preview</span>

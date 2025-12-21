@@ -1,5 +1,7 @@
 import ProjectCard from "../components/ProjectCard.jsx";
-import QuizApplication from "../img/QuizApplication.png"
+import QuizApplication from "../img/QuizApplication.png";
+
+import CoffeeMadness from "../img/CoffeeMadness.png";
 
 function ProjectSection() {
   return (
@@ -12,7 +14,7 @@ function ProjectSection() {
 
       <ProjectCard
         title="QuickDeal"
-        description="A mobile application designed to help farm owners monitor crops, manage tasks such as watering and fertilizing, and track seedling growth remotely."
+        description="QuickDeal is a customer-to-customer (C2C) e-commerce platform that allows users to buy and sell products directly with one another. The system includes user authentication, product listings, featured items, and secure database-driven transactions. It is built using HTML, CSS, JavaScript, PHP, and MySQL, focusing on usability, responsiveness, and efficient data management."
         technologies={["HTML", "CSS", "JavaScript", "PHP", "MySQL"]}
         liveLink="https://github.com/PaperNsalt"
         githubLink="https://github.com/PaperNsalt/C2C-Ecommerce---Quickdeal"
@@ -22,7 +24,7 @@ function ProjectSection() {
 
       <ProjectCard
         title="thebrandcollective"
-        description="A customer-to-customer e-commerce website with premium sellers, featured listings, and admin tracking."
+        description="TheBrandCollective is an e-commerce website dedicated to selling branded shoes through a clean and modern online shopping experience. The platform features product catalogs, detailed product pages, and a structured checkout flow. Developed with HTML, CSS, JavaScript, PHP, and MySQL, the project emphasizes organized product management, responsive design, and smooth user interaction."
         technologies={["HTML", "CSS", "PHP", "MySQL", "JavaScript"]}
         liveLink="https://your-live-demo.com"
         githubLink="https://github.com/PaperNsalt/Shoes-Ecommerce-Website---thebrandcollective"
@@ -30,12 +32,32 @@ function ProjectSection() {
         imageAlt="Preview"
       />
 
-      <ProjectCard 
+      <ProjectCard
+        title="CoffeeMadness"
+        description="CoffeeMadness is a coffee shop website designed to showcase products, menus, and brand identity in an engaging way. The website highlights coffee selections, promotions, and store information while maintaining a visually appealing and user-friendly layout. It was developed using HTML, CSS, JavaScript, PHP, and MySQL, with a focus on design consistency and interactive elements."
+        technologies={["HTML", "CSS", "PHP", "MySQL", "JavaScript"]}
+        liveLink="https://your-live-demo.com"
+        githubLink="https://github.com/PaperNsalt/CoffeeMadness"
+        image={CoffeeMadness}
+        imageAlt="Preview"
+      />
+
+      <ProjectCard
         title="Student Management System"
-        description="A customer-to-customer e-commerce website with premium sellers, featured listings, and admin tracking."
+        description="The Student Management System is a web-based application that manages student records, including registration, updates, and data retrieval. It allows administrators to efficiently handle student information through a structured and secure system. Built using HTML, CSS, JavaScript, PHP, and MySQL, the project focuses on CRUD operations, data integrity, and administrative functionality."
         technologies={["HTML", "CSS", "PHP", "MySQL", "JavaScript"]}
         liveLink="https://your-live-demo.com"
         githubLink="https://github.com/PaperNsalt/Student-Management-System"
+        image={QuizApplication}
+        imageAlt="Preview"
+      />
+      
+      <ProjectCard
+        title="InspireMe"
+        description="InspireMe is a mobile application that generates inspirational quotes by fetching data from an external API. Developed using Flutter and Dart, the app delivers a smooth and responsive user experience while dynamically displaying quotes in real time. The project demonstrates API integration, asynchronous data handling, and clean UI design for cross-platform mobile applications."
+        technologies={["Dart", "Flutter"]}
+        liveLink="https://your-live-demo.com"
+        githubLink="https://github.com/PaperNsalt/QuoteApp"
         image={QuizApplication}
         imageAlt="Preview"
       />

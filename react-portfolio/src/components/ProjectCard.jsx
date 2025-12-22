@@ -29,7 +29,15 @@ function ProjectCard({
           {title}
         </h1>
 
-        <p className="anim text-left xl:text-[1.4rem] xl:mt-4 lg:mt-4 md:mt-4 max-[426px]:mb-6 max-[426px]:text-[1.2rem]">
+        <p className="
+        anim 
+        text-left 
+        xl:text-[2rem] 
+        xl:mt-4 lg:mt-4 
+        md:mt-4 
+        md:text-[1.4rem]
+        max-[426px]:mb-6 
+        max-[426px]:text-[1.2rem]">
           {description}
         </p>
 
@@ -43,6 +51,7 @@ function ProjectCard({
 
         <div
           className="
+        anim
         flex 
         gap-4 
         xl:mt-6

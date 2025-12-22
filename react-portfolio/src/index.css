@@ -52,7 +52,7 @@ h3{
   transition: 0.5s ease;
 } */
 
-html {
+html, body {
   font-size: 62.5%;
   font-family: var(--ff--primary);
 
@@ -68,7 +68,7 @@ img, svg {
 }
 
 main{
-  width: 98%;
+  max-width: 96%;
   margin-inline: auto;
 }
 

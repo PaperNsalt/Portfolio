@@ -1,6 +1,7 @@
 import ProjectCard from "../components/ProjectCard.jsx";
 import QuizApplication from "../img/QuizApplication.png";
 
+import QuickDeal from "../img/QuickDeal.png";
 import CoffeeMadness from "../img/CoffeeMadness.png";
 
 function ProjectSection() {
@@ -18,7 +19,7 @@ function ProjectSection() {
         technologies={["HTML", "CSS", "JavaScript", "PHP", "MySQL"]}
         liveLink="https://github.com/PaperNsalt"
         githubLink="https://github.com/PaperNsalt/C2C-Ecommerce---Quickdeal"
-        image={QuizApplication}
+        image={QuickDeal}
         imageAlt="Preview"
       />
 

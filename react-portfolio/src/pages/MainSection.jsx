@@ -24,11 +24,11 @@ function MainSection() {
   const portfolioSectionBorders1 =
     " border-s-40 border-b-40 max-[426px]:border-b-20 max-[426px]:border-s-20 xl:p-30 lg:p-16 md:p-10 max-[426px]:py-50 max-[426px]:px-10";
   const headlineTextClasses =
-    "text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] md:leading- lg:text-[12rem] xl:text-[24rem] xl:leading-76 font-medium tracking-tighter";
+    "text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] md:leading- lg:text-[12rem] xl:leading-76 font-medium tracking-tighter";
   const subHeadlineTextClasses =
     "text-center text-4xl max-[426px]:text-[.8rem] md:text-[1.4rem] border rounded-full w-auto p-2";
   const headlineTextClasses2 =
-    "text-right max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[12rem] xl:text-[24rem] leading-76 font-medium tracking-tighter";
+    "text-right max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[12rem] leading-76 font-medium tracking-tighter";
 
   const techCards =
     "anim rounded-4xl p-10 flex flex-col justify-center items-center";
@@ -38,13 +38,13 @@ function MainSection() {
       <section className={portfolioSectionBorders}>
         <div className="anim grid grid-cols-2 md:grid-rows-[80px] lg:grid-rows-[100px] xl:grid-rows-[190px] py-4 px-4 gap-2">
           <div className="anim flex justify-start items-center ">
-            <h1 className={headlineTextClasses}>BEYOND</h1>
+            <h1 className={headlineTextClasses + " xl:text-[24rem] "}>BEYOND</h1>
           </div>
         </div>
 
         <div className="anim grid grid-cols-2 md:grid-rows-[80px] lg:grid-rows-[100px] xl:grid-rows-[190px] py-4 px-4 gap-2">
           <div className="anim flex justify-start items-center ">
-            <h1 className={headlineTextClasses}>DESIGN</h1>
+            <h1 className={headlineTextClasses + " xl:text-[18rem] "}>DESIGN</h1>
           </div>
 
           <div className="anim flex justify-center items-center">
@@ -58,13 +58,13 @@ function MainSection() {
           </div>
 
           <div className="anim flex justify-end items-center ">
-            <h1 className={headlineTextClasses2}>INTO</h1>
+            <h1 className={headlineTextClasses2 + " xl:text-[24rem] "}>INTO</h1>
           </div>
         </div>
 
         <div className="anim grid grid-cols-2 md:grid-rows-[80px] lg:grid-rows-[100px] xl:grid-rows-[190px] py-4 px-4 gap-2">
           <div className="anim col-start-2 col-end-3 flex justify-end items-center ">
-            <h1 className={headlineTextClasses2}>EXPERIENCE</h1>
+            <h1 className={headlineTextClasses2 + " xl:text-[18rem] "}>EXPERIENCE</h1>
           </div>
         </div>
       </section>
@@ -424,9 +424,9 @@ function MainSection() {
   );
 }
 
-// window.addEventListener('scroll', () => {
-//   const scrollTop = window.scrollY; // How many pixels scrolled vertically
-//   console.log('Scrolled:', scrollTop, 'px');
-// });
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY; // How many pixels scrolled vertically
+  console.log('Scrolled:', scrollTop, 'px');
+});
 
 export default MainSection;

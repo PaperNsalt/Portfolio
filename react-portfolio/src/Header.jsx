@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./assets/style/header.css";
 import logo from "./assets/vector/IamJem.svg";
 
+import { GalleryIcon } from "./components/IconComponent";
+
 function Header() {
   const [open, setOpen] = useState(false);
 
@@ -56,6 +58,9 @@ function Header() {
         <li><button onClick={() => scrollToPosition(2000)} className="hover:text-[#f2552e]" href="">02.SKILLS</button></li>
         <li><button onClick={() => scrollToPosition(4400)} className="hover:text-[#f2552e]" href="">03.PROJECTS</button></li>
         <li><button onClick={() => scrollToPosition()} className="hover:text-[#f2552e]" href="">04.EMAIL</button></li>
+
+        <li><a href="./pages/" className="hover:text-[#f2552e]">{GalleryIcon}</a></li>
+
       </ul>
     </div>
   </nav>

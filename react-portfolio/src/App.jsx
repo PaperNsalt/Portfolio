@@ -3,23 +3,19 @@ import Footer from './Footer'
 import './App.css'
 import MainSection from './pages/MainSection'
 import ProjectSection from './pages/ProjectSection'
-import CreativeSection from './pages/CreativeSection'
+import EmailSection from './pages/EmailSection'
+
+
 
 function App() {
 
   return (
     <>
-  <Header></Header>
-  
-  <MainSection></MainSection>
-  
-  <ProjectSection></ProjectSection>
-
-  <CreativeSection></CreativeSection>
-
-  {/* <MainSection></MainSection> */}
-  
-  <Footer></Footer>
+  <Header />
+  <MainSection />
+  <ProjectSection/>
+  <EmailSection/>
+  <Footer/>
     </>
   )
 }

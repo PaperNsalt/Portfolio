@@ -64,14 +64,14 @@ function Header() {
                 whileTap={{ scale: 0.9, y: 1 }}
                 transition={{ type: "spring", stiffness: 300, damping: 15 }}
                 className={navbarStyle}
-                onClick={() => scrollToPosition(5200)}
+                onClick={() => scrollToPosition(7236)}
               >
-                04.EMAIL
+                04.GET IN TOUCH
               </motion.button>
             </li>
-            <li>
+            {/* <li>
               <a href="./pages/">{GalleryIcon}</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
@@ -126,14 +126,14 @@ function Header() {
                 whileTap={{ scale: 0.9, y: 1 }}
                 transition={{ type: "spring", stiffness: 300, damping: 15 }}
                 className={navbarStyle}
-                onClick={() => scrollToPosition(7499)}
+                onClick={() => scrollToPosition(7629)}
               >
-                04.EMAIL
+                04.GET IN TOUCH
               </motion.button>
             </li>
-            <li>
+            {/* <li>
               <a href="./pages/">{GalleryIcon}</a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

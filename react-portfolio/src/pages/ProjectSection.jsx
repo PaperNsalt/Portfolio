@@ -1,6 +1,9 @@
+import ButtonComponent from "../components/ButtonComponent.jsx";
+
 import ProjectCard from "../components/ProjectCard.jsx";
 import QuizApplication from "../img/QuizApplication.png";
 import thebrandcollective from "../img/thebrandcollective.png"
+import StudentManagementSystem from "../img/Student Management System.png";
 
 import QuickDeal from "../img/QuickDeal.png";
 import CoffeeMadness from "../img/CoffeeMadness.png";
@@ -50,7 +53,7 @@ function ProjectSection() {
         technologies={["HTML", "CSS", "PHP", "MySQL", "JavaScript"]}
         liveLink="https://your-live-demo.com"
         githubLink="https://github.com/PaperNsalt/Student-Management-System"
-        image={QuizApplication}
+        image={StudentManagementSystem}
         imageAlt="Preview"
       />
       
@@ -60,9 +63,17 @@ function ProjectSection() {
         technologies={["Dart", "Flutter"]}
         liveLink="https://your-live-demo.com"
         githubLink="https://github.com/PaperNsalt/QuoteApp"
-        image={QuizApplication}
+       image={QuizApplication}
         imageAlt="Preview"
       />
+
+      <div className="flex justify-start xl:mt-10">
+      <ButtonComponent 
+      href="https://github.com/PaperNsalt?tab=repositories"
+      label="Project Archive"
+      newTab
+      />
+      </div>
     </section>
   );
 }

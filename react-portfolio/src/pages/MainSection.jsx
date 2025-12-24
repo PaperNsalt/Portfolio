@@ -43,7 +43,7 @@ function MainSection() {
   const subHeadlineTextClasses =
     "text-center text-4xl max-[426px]:text-[.8rem] md:text-[1.4rem] border rounded-full w-auto p-2";
   const headlineTextClasses2 =
-    "";
+    "text-left max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] md:leading- lg:text-[12rem] xl:leading-76 font-medium tracking-tighter";
 
   return (
     <>
@@ -127,7 +127,7 @@ function MainSection() {
             </h1>
             <p className="text-justify text-3xl max-[426px]:text-[1rem] max-[426px]:leading-6 leading-12 md:text-[1rem] md:leading-6 lg:text-2xl lg:leading-10 xl:text-3xl xl:leading-12">
               Hello there! I'm{" "}
-              <span className="font-semibold border px-[5.1px] py-[1.2px] rounded-full">
+              <span className="font-semibold border px-[5.1px] py-[1.2px] rounded-full hover:bg-[#f2552e]/80 transition-colors duration-200 hover:text-white hover:border-black">
                 Jeremy Rellama
               </span>
               , currently pursuing my Bachelor of Science in Information
@@ -203,7 +203,7 @@ function MainSection() {
             description={
               <>
                 I possess a comprehensive skill set in{" "}
-                <span className="font-medium border px-[5.1px] py-[1.2px] rounded-full">
+                <span className="font-medium border px-[5.1px] py-[1.2px] rounded-full hover:bg-[#f2552e]/80 transition-colors duration-200">
                   illustration
                 </span>
                 , encompassing both traditional and digital techniques. My
@@ -220,7 +220,7 @@ function MainSection() {
             description={
               <>
                 I excel at designing{" "}
-                <span className="font-medium border px-[5.1px] py-[1.2px] rounded-full">
+                <span className="font-medium border px-[5.1px] py-[1.2px] rounded-full hover:bg-[#f2552e]/80 transition-colors duration-200">
                   intuitive
                 </span>
                 user interfaces and seamless user experiences, ensuring that
@@ -238,7 +238,7 @@ function MainSection() {
             description={
               <>
                 I possess a comprehensive skill set in{" "}
-                <span className="font-medium border px-[5.1px] py-[1.2px] rounded-full">
+                <span className="font-medium border px-[5.1px] py-[1.2px] rounded-full hover:bg-[#f2552e]/80 transition-colors duration-200">
                   illustration
                 </span>
                 , encompassing both traditional and digital techniques. My
@@ -249,7 +249,12 @@ function MainSection() {
         </div>
 
         <div className="mt-20 lg:mt-10 anim grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] gap-8">
-          <div className="flex gap-4 justify-center items-center">
+          <motion.div
+            whileHover={{ scale: 1.2, y: -2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            whileTap={{ scale: 0.9, y: 1 }}
+            className="flex gap-4 justify-center items-center"
+          >
             <img
               className="max-[426px]:size-18 size-36 md:size-20 lg:size-20"
               src={Photoshop}
@@ -258,9 +263,14 @@ function MainSection() {
             <h1 className="max-[426px]:text-[1.4rem] lg:text-[2rem] xl:text-[3.8rem] tracking-tighter">
               Photoshop
             </h1>
-          </div>
+          </motion.div>
 
-          <div className="flex gap-4 justify-center items-center">
+          <motion.div
+            whileHover={{ scale: 1.2, y: -2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            whileTap={{ scale: 0.9, y: 1 }}
+            className="flex gap-4 justify-center items-center"
+          >
             <img
               className="max-[426px]:size-18 size-36 md:size-20 lg:size-20 rounded-2xl"
               src={Affinity}
@@ -269,9 +279,14 @@ function MainSection() {
             <h1 className="max-[426px]:text-[1.4rem] lg:text-[2rem] xl:text-[3.8rem] tracking-tighter">
               Affinity
             </h1>
-          </div>
+          </motion.div>
 
-          <div className="flex gap-4 justify-center items-center">
+          <motion.div
+            whileHover={{ scale: 1.2, y: -2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            whileTap={{ scale: 0.9, y: 1 }}
+            className="flex gap-4 justify-center items-center"
+          >
             <img
               className="max-[426px]:size-18 size-36 md:size-20 lg:size-20"
               src={Illustrator}
@@ -280,9 +295,14 @@ function MainSection() {
             <h1 className="max-[426px]:text-[1.4rem] lg:text-[2rem] xl:text-[3.8rem] tracking-tighter">
               Illustrator
             </h1>
-          </div>
+          </motion.div>
 
-          <div className="flex gap-4 justify-center items-center">
+          <motion.div
+            whileHover={{ scale: 1.2, y: -2 }}
+            transition={{ type: "spring", stiffness: 500 }}
+            whileTap={{ scale: 0.9, y: 1 }}
+            className="flex gap-4 justify-center items-center"
+          >
             <img
               className="max-[426px]:size-18 size-36 md:size-20 lg:size-20"
               src={InDesign}
@@ -291,7 +311,7 @@ function MainSection() {
             <h1 className="max-[426px]:text-[1.4rem] lg:text-[rem] xl:text-[3.8rem] tracking-tighter">
               InDesign
             </h1>
-          </div>
+          </motion.div>
         </div>
       </section>
 

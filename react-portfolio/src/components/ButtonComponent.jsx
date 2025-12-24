@@ -1,10 +1,12 @@
+import { motion } from "motion/react";
+
 function ButtonLink({
   href,
   label,
   download = true,
   newTab = false,
   icon = null,
-}) {
+}){
   return (
     <a
       href={href}
@@ -13,7 +15,10 @@ function ButtonLink({
       rel={newTab ? "noopener noreferrer" : undefined}
       className="inline-block"
     >
-      <button
+      <motion.button
+        whileHover={{ scale: 1.05, y: -2 }}
+        whileTap={{ scale: 0.9, y: 1}}
+        transition={{ type: "spring", stiffness: 300, damping: 15}}
         className="
           flex items-center gap-2
           border bg-white text-[1.4rem]
@@ -26,7 +31,7 @@ function ButtonLink({
       >
         {icon && <span className="">{icon}</span>}
         {label}
-      </button>
+      </motion.button>
     </a>
   );
 }

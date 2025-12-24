@@ -23,7 +23,7 @@ function FlipCard({
           bg-[#39393f]/40 border p-10 rounded-2xl
           [backface-visibility:hidden]"
         >
-          <h1 className="text-[4rem] tracking-tighter leading-16 font-medium text-center">
+          <h1 className="max-[426px]:text-[2.8rem] max-[426px]:leading-14 text-[4rem] tracking-tighter leading-16 font-medium text-center">
             {title}
             {subtitle && <br />}
             {subtitle}

@@ -3,7 +3,7 @@ import Footer from './Footer'
 import './App.css'
 import MainSection from './pages/MainSection'
 import ProjectSection from './pages/ProjectSection'
-import EmailSection from './pages/EmailSection'
+
 
 
 

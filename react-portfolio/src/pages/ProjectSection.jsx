@@ -1,5 +1,6 @@
 import ProjectCard from "../components/ProjectCard.jsx";
 import QuizApplication from "../img/QuizApplication.png";
+import thebrandcollective from "../img/thebrandcollective.png"
 
 import QuickDeal from "../img/QuickDeal.png";
 import CoffeeMadness from "../img/CoffeeMadness.png";
@@ -29,7 +30,7 @@ function ProjectSection() {
         technologies={["HTML", "CSS", "PHP", "MySQL", "JavaScript"]}
         liveLink="https://your-live-demo.com"
         githubLink="https://github.com/PaperNsalt/Shoes-Ecommerce-Website---thebrandcollective"
-        image={QuizApplication}
+        image={thebrandcollective}
         imageAlt="Preview"
       />
 

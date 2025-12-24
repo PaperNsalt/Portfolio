@@ -1,5 +1,5 @@
 import "../App.css";
-import { motion } from "motion/react";
+import { motion, scale } from "motion/react";
 
 import StoryCard from "../components/StoryCard.jsx";
 import SkillCard from "../components/SkillsSectionComponent.jsx";
@@ -43,7 +43,7 @@ function MainSection() {
   const subHeadlineTextClasses =
     "text-center text-4xl max-[426px]:text-[.8rem] md:text-[1.4rem] border rounded-full w-auto p-2";
   const headlineTextClasses2 =
-    "text-right max-[426px]:text-[4rem] max-[426px]:leading-10 md:text-[7rem] lg:text-[12rem] leading-76 font-medium tracking-tighter";
+    "";
 
   return (
     <>
@@ -175,7 +175,10 @@ function MainSection() {
           </div>
 
           <div className="flex justify-center items-center max-[426px]:order-1">
-            <img
+            <motion.img
+              whileHover={{ scale: 1.2, y: -2 }}
+              transition={{ type: "spring", stiffness: 500, damping: 20 }}
+              whileTap={{ scale: 0.9, y: 1 }}
               className="imganim aspect-auto object-cover max-[426px]:size-80 md:size-80 xl:size-200 lg:size-120"
               src={jem}
               alt="Jeremy rellama"

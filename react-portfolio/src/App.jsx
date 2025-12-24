@@ -14,7 +14,6 @@ function App() {
   <Header />
   <MainSection />
   <ProjectSection/>
-  <EmailSection/>
   <Footer/>
     </>
   )

@@ -1,4 +1,4 @@
-import { FacebookIcon, GithubFooterIcon, GmailIcon, InstagramIcon, LinkedInFooterIcon, LinkedInIcon } from "./components/IconComponent";
+import { FacebookIcon, GmailIcon, InstagramIcon, LinkedInFooterIcon } from "./components/IconComponent";
 import FooterSocialCard from "./components/FooterSocialCardComponent";
 
 function Footer(){
@@ -8,7 +8,7 @@ function Footer(){
       <div className="flex justify-start items-start">
         <h1 className="text-left max-[426px]:text-[4rem] max-[426px]:leading-14 md:text-[7rem] lg:text-[12rem] leading-76 font-medium tracking-tighter">GET IN TOUCH </h1>
       </div>
-{/* grid-cols-[repeat(auto-fit,minmax(100px,1fr))] */}
+
       <div className="grid grid-cols-2 gap-6">
 
         <FooterSocialCard
